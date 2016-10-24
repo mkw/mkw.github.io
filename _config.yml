@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
@@ -15,18 +8,106 @@
 # in the templates via {{ site.myvariable }}.
 title: Software Coruscations
 email: mkw-github@coruscations.com
-description: >
-  ‘What must be the quality of that Being whose far-off and momentary coruscations are like this!’ – C.S. Lewis
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mkw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: mkw
-github_username:  mkw
 
-# Build settings
+name: Michael Werle
+bio: Software developer seeking momentary coruscaitons.
+
+description: ‘What must be the quality of that Being whose far-off and momentary coruscations are like this!’ – C.S. Lewis
+
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/profile.jpg
+
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mkw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: /:title/
+
 markdown: kramdown
-theme: minima
+highlighter: rouge
+
+# To enable google analytics, supply your token below
+analytics-google: 'UA-85909347-1'
+
+# To enable piwik tracking, supply your url & site ID below
+# analytics-piwik-url: 'piwik.my-host.com'
+# analytics-piwik-id: 1
+
+# if you don't want comments in your posts, set to false
+disqus: false
+
+# if you don't have any of social below, comment the line
+# facebook: myfacebook
+# twitter: mkw
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+linkedin: mkwerle
+# youtube: myyoutube
+#spotify: myspotify
+github: mkw
+#medium: medium
+#vimeo: myvimeo
+email: mkw-github@coruscations.com
+
+#authors:
+#    mkw:
+#        name: Michael Werle
+#        bio: A Man who travels the world eating noodles
+#        external-image: false
+#        picture: assets/images/profile.jpg
+#        twitter: mkw
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# if you don't need projects, comment the *projects* configs below
+projects: false
+
+# if you don't need projects, comment the *projects* configs below
+resume: true
+
+# if you don't need "about" or "blog", comment them out below
+about: false
+blog: false
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+related: true
+
+# show next & prev links in blog post?
+blog-nav-links: false
+
+# show author block at the end of a post ?
+show-author: true
+
+# do you want some animations?
+animation: true
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+
 gems:
+  - jemoji
+  - jekyll-mentions
+  - jekyll-seo-tag
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+
+jekyll-mentions:
+    base_url: https://github.com

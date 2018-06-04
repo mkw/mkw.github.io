@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mkw
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mkw.github.io
+  * I am mkw (https://keybase.io/mkw) on keybase.
+  * I have a public key ASAsuVldKAJDe6guqMRUsKajweW4CcgybXFXE7yK5a4zIwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120df8d858a8f4ddeadb4f0965ee852cd1ffec3563e25367acd34b1edb22a3e1eaf0a",
+      "host": "keybase.io",
+      "kid": "01202cb9595d2802437ba82ea8c454b0a6a3c1e5b809c8326d715713bc8ae5ae33230a",
+      "uid": "453caeed08400a7c9d081a8bad99dc19",
+      "username": "mkw"
+    },
+    "merkle_root": {
+      "ctime": 1528128034,
+      "hash": "f9292d95dc94762b24aa301de3843321dafa981e77f3550bb2e5d826c93dd456d7912593a8e0a0b63219abc6baa1070f55d7263ac561280895471c63e4212eea",
+      "hash_meta": "9fa51e1aa19a9f1c5a134f3530696544569bfeeeb8a55d96b3a3abe50b3fad73",
+      "seqno": 2991605
+    },
+    "service": {
+      "entropy": "RC2VmTr/DkLxQjSmQwHqONTj",
+      "hostname": "mkw.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.48"
+  },
+  "ctime": 1528128044,
+  "expire_in": 504576000,
+  "prev": "f8884eadd85c3d0277d152724ccf1e89d9118402a45abd6276a600b6d38651ef",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgLLlZXSgCQ3uoLqjEVLCmo8HluAnIMm1xVxO8iuWuMyMKp3BheWxvYWTESpcCF8Qg+IhOrdhcPQJ30VJyTM8eidkRhAKkWr1idqYAttOGUe/EIKum1Gwj1I0TZ8DAQ82HkyCh8wT5h7bJLXiRM6W8UA7OAgHCo3NpZ8RA5eB6xo0JoKwTy3OU1zPk1dnpgwOSGgfbYuLVHANoNrwFsBMHpRwWOel3l80eeT9b7RrE3jcSh44a9BnrUwd7AahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFT21c8IQXbmLKEzqA04EuFERXWkkEai9IuQCCXcOFgfo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mkw
+
+==================================================================

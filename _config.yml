@@ -25,6 +25,8 @@ url: ""
 
 permalink: /:title/
 
+include: [".well-known"]
+
 markdown: kramdown
 highlighter: rouge
 
